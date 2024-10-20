@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .bg-gradiant {
+        background: linear-gradient(90deg, #2d3a43, #20232c 97%) !important;
+        opacity: 1;
+    }
+    .main-btn{
+        background-color: rgba(119, 193, 241, 0.781);
+    }
+
+    
+}
+
+@keyframes down-animation{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    @apply font-julius;
+}
+
+.down-animation{
+    animation: down-animation 1s infinite;
+}
+
+.dark{
+    background-color: #1f212e;
+    color: #fefefe;
+}
+
+.Header{
+    max-width: 1680px;
+    margin: auto;
+}
+
+.nav-link{
+    background-color: rgba(63, 63, 70, 0.822);
+}
+
+.footer{
+    background: linear-gradient(90deg, #2d3a43, #20232c 97%) !important;
+}
