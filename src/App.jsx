@@ -6,13 +6,11 @@ import Om from './pages/Om';
 import Projekt from './pages/Projekt';
 import ProjectDetail from './pages/ProjectDetail';
 import Kontakt from './pages/Kontakt';
-import { HelmetProvider } from 'react-helmet-async';
 import Footer from './components/Footer/Footer';
 
 function App() {
 
   return (
-    <HelmetProvider>
         <Router>
         <div className='bg-gradiant'>
             <Header />
@@ -27,9 +25,8 @@ function App() {
         <Om/>
         <Projekt/>
         <Kontakt/>
+        <Footer/>
       </Router>
-      <Footer/>
-    </HelmetProvider>
   )
 }
 

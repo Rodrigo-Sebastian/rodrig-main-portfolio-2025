@@ -11,7 +11,6 @@ import {PiMouseSimpleLight,
         PiPaintBrushThin,
     } 
 from "react-icons/pi";
-import { Helmet } from 'react-helmet-async';
 
 
 const socialIcons = [
@@ -32,13 +31,6 @@ const gridItems = [
 const Hem = () => {
   return (
     <>
-    <Helmet>
-        <title>Rodrigos Portfolio - Hem</title>
-        <meta name="description" content="Välkommen till Rodrgios portfolio, här kan du se över mina projekt och läsa om mina erfarenheter som Front-end utvecklare." />
-        <meta property="og:title" content="Rodrigo:s Portfolio" />
-        <meta property="og:description" content="Utforska projekt och läs mer om Rodrigo, en front-end utvecklare med 2 års erfarenhet inom UX och UI design." />
-        <meta property="og:url" content="https://www.dinhemsida.se/" />
-    </Helmet>
         <div id='hem' className='flex flex-col justify-center items-center gap-8 mt-16 lg:mt-32'>
             <div className='hero-section p-4 lg:w-[1680px] flex flex-col lg:flex-row items-center gap-20'>
             {/* INFO-SECTION */}
