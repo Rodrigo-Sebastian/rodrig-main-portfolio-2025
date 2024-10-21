@@ -7,26 +7,30 @@ import Projekt from './pages/Projekt';
 import ProjectDetail from './pages/ProjectDetail';
 import Kontakt from './pages/Kontakt';
 import Footer from './components/Footer/Footer';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
 
   return (
-        <Router>
-        <div className='bg-gradiant'>
-            <Header />
-        </div>
-        <Routes>
-            <Route path="/"  element={<Hem/>} />
-            <Route path="/om" element={<Om/>} />
-            <Route path="/projekt" element={<Projekt/>} />
-            <Route path="/projekt/:projectId" element={<ProjectDetail/>} />
-            <Route path="/kontakt" element={<Kontakt/>} />
-        </Routes>
-        <Om/>
-        <Projekt/>
-        <Kontakt/>
-        <Footer/>
-      </Router>
+    <HelmetProvider>
+          <Router>
+          <div className='bg-gradiant'>
+              <Header />
+          </div>
+          <Routes>
+              <Route path="/"  element={<Hem/>} />
+              <Route path="/om" element={<Om/>} />
+              <Route path="/projekt" element={<Projekt/>} />
+              <Route path="/projekt/:projectId" element={<ProjectDetail/>} />
+              <Route path="/kontakt" element={<Kontakt/>} />
+          </Routes>
+          <Om/>
+          <Projekt/>
+          <Kontakt/>
+          <Footer/>
+        </Router>
+    </HelmetProvider>
+
   )
 }
 
