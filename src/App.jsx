@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer';
 function App() {
 
   return (
-    <HelmetProvider>
+    <HelmetProvider basename="/rodrigo-main-portfolio-2025/">
         <Router>
         <div className='bg-gradiant'>
             <Header />
