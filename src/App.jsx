@@ -13,7 +13,7 @@ function App() {
 
   return (
     <HelmetProvider>
-        <Router basename='/rodrigo-main-portfolio-2025/'>
+        <Router>
         <div className='bg-gradiant'>
             <Header />
         </div>
