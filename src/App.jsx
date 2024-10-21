@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Hem from './pages/Hem';
 import Om from './pages/Om';
@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 function App() {
 
   return (
-        <Router>
+        <Router basename="/">
         <div className='bg-gradiant'>
             <Header />
         </div>
