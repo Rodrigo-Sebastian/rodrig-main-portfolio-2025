@@ -1,5 +1,5 @@
 import './App.css'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Hem from './pages/Hem';
 import Om from './pages/Om';
