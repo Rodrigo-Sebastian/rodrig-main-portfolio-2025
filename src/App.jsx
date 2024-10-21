@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 function App() {
 
   return (
-        <Router basename="/">
+        <Router>
         <div className='bg-gradiant'>
             <Header />
         </div>
