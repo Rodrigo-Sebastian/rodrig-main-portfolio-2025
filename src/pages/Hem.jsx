@@ -47,7 +47,7 @@ const Hem = () => {
                         <h1>Kontakta mig</h1>
                         <PiMailbox />
                     </a>
-                    <a href="projekt" className='flex flex-row gap-2 items-center justify-center text-center main-btn rounded-md w-[220px] h-[45px] lg:h-[50px] text-white shadow-2xl transition-colors duration-300 ease-out hover:bg-blue-400'>
+                    <a href="#projekt" className='flex flex-row gap-2 items-center justify-center text-center main-btn rounded-md w-[220px] h-[45px] lg:h-[50px] text-white shadow-2xl transition-colors duration-300 ease-out hover:bg-blue-400'>
                         <h1>besök mina projekt</h1>
                         <PiPaperPlaneTiltLight/>
                     </a>
