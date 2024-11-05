@@ -32,7 +32,7 @@ const Hem = () => {
   return (
     <>
         <div id='hem' className='flex flex-col justify-center items-center gap-8 mt-16 lg:mt-32'>
-            <div className='hero-section p-4 lg:w-[1680px] flex flex-col lg:flex-row items-center gap-20'>
+            <div className='hero-section p-4 lg:w-[1480px] flex flex-col lg:flex-row items-center gap-20'>
             {/* INFO-SECTION */}
                 <div className='flex-1 flex flex-col justify-start gap-6'>
                     <div className='flex flex-col items-start gap-6'>

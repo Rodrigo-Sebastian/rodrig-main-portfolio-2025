@@ -28,7 +28,7 @@ const ProjectDetail = () => {
     }
 
     return (
-        <div className="p-4 mt-20 flex flex-col lg:flex-row lg:justify-between gap-2 lg:w-[1680px] lg:m-auto lg:mt-20">
+        <div className="p-4 mt-20 flex flex-col lg:flex-row lg:justify-between gap-2 lg:w-[1480px] lg:m-auto lg:mt-20">
             <div className='flex-1 flex flex-col gap-8'>
                 <h1 className="text-3xl font-bold">{project.title}</h1>
                 <p>{project.description}</p>

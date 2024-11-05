@@ -18,7 +18,7 @@ const kontaktInfo = [
 
 const Kontakt = () => {
   return (
-    <div id='kontakt' className='mt-28 mx-4 bg-beige rounded-xl p-6 lg:w-[1680px] lg:m-auto lg:mb-20 lg:mt-32 flex flex-col lg:items-center mb-20'>
+    <div id='kontakt' className='mt-28 mx-4 bg-beige rounded-xl p-6 lg:w-[1480px] lg:m-auto lg:mb-20 lg:mt-32 flex flex-col lg:items-center mb-20'>
         <div className='lg:w-[1250px] flex flex-col justify-center'>
             <h1 className='text-2xl mt-4 text-black'>Kontakt</h1>
             <span className='w-full h-[1px] block bg-gray-300 mt-4'></span>

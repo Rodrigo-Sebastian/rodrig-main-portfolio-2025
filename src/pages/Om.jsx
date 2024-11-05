@@ -28,7 +28,7 @@ const omInfoCard = [
 
 const Om = () => {
   return (
-    <div id='om' className='lg:mt-32 lg:w-[1680px] mx-4 lg:m-auto'>
+    <div id='om' className='lg:mt-32 lg:w-[1480px] mx-4 lg:m-auto'>
         <span className='w-full h-[1px] block bg-gray-200 mb-10'></span>
         <h1 className='text-lg lg:text-2xl mb-10'>Om Mig</h1>
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr_1fr_1fr] gap-6">
